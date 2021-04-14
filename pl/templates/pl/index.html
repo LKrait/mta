@@ -1,0 +1,103 @@
+{%extends 'base/base.html'%}
+{% block content %}
+<title>Motor Traffic Registry | Licence</title>
+    <style>
+        body {
+            font-size: 10px;
+            font-family: 'Roboto', sans serif, Dejavu Sans;
+        }
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid #ddd;
+        }
+
+        th, td {
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2}
+    </style>
+<body>
+<section class="container">
+
+  <h2>Motor Traffic Registry | Provisional Licence | Driver's Licence</h2>
+
+
+  <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search" style="padding-bottom: 2px;font-family: 'verdana';margin-bottom: 3px;">
+
+  <table class="order-table table">
+    <thead>
+          <tr>
+              <th>LicenceID</th>
+              <th>Surname</th>
+              <th>Given Name</th>
+              <th>Licence Type</th>
+              <th>Class of Licence</th>
+              <th>Date Updated.</th>
+          </tr>
+    </thead>
+    <tbody>
+      {% for licence in pl%}
+      <tr>
+        <td>{{licence.licence_id}}</td>
+        <td>{{licence.surname}}</td>
+        <td>{{licence.given_names}}</td>
+          <td>{{licence.licence_type}}</td>
+        <td>{{licence.class_of_licence}}</td>
+        <td>{{licence.updated}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</section>
+
+<script type="text/javascript">
+  (function(document) {
+  'use strict';
+
+  var LightTableFilter = (function(Arr) {
+
+    var _input;
+
+    function _onInputEvent(e) {
+      _input = e.target;
+      var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+      Arr.forEach.call(tables, function(table) {
+        Arr.forEach.call(table.tBodies, function(tbody) {
+          Arr.forEach.call(tbody.rows, _filter);
+        });
+      });
+    }
+
+    function _filter(row) {
+      var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+      row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+    }
+
+    return {
+      init: function() {
+        var inputs = document.getElementsByClassName('light-table-filter');
+        Arr.forEach.call(inputs, function(input) {
+          input.oninput = _onInputEvent;
+        });
+      }
+    };
+  })(Array.prototype);
+
+  document.addEventListener('readystatechange', function() {
+    if (document.readyState === 'complete') {
+      LightTableFilter.init();
+    }
+  });
+
+})(document);
+</script>
+
+
+</div>
+</body>
+{% endblock %}
