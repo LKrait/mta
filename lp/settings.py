@@ -32,8 +32,15 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'base.apps.BaseConfig',
+    'dl.apps.DlConfig',
     'dlearn.apps.DlearnConfig',
+    'idp.apps.IdpConfig',
+    'madp.apps.MadpConfig',
+    'phhvl.apps.PhhvlConfig',
     'pl.apps.PlConfig',
+    'pmvl.apps.PmvlConfig',
+    'pmvc.apps.PmvcConfig',
+    'vr.apps.VrConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

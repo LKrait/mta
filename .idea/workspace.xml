@@ -2,91 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14861ac-c3c0-42cf-9a8f-b33b4b81843e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mptb-mtr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/templates/base/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/templates/base/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dl/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/datum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/migrations/0002_auto_20210407_2319.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/migrations/0003_auto_20210407_2325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/templates/dlearn/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/templates/dlearn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dlearn/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lp/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lp/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lp/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/madp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/migrations/0002_licence_licence_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/templates/pl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pl/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvc/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmvl/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmvl/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pmvl/admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +30,7 @@
         <option value="LKrait" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -124,7 +44,6 @@
         <option value="$PROJECT_DIR$/dlearn/urls.py" />
         <option value="$PROJECT_DIR$/base/views.py" />
         <option value="$PROJECT_DIR$/base/urls.py" />
-        <option value="$PROJECT_DIR$/lp/settings.py" />
         <option value="$PROJECT_DIR$/pl/models.py" />
         <option value="$PROJECT_DIR$/pl/admin.py" />
         <option value="$PROJECT_DIR$/pl/forms.py" />
@@ -134,6 +53,10 @@
         <option value="$PROJECT_DIR$/base/templates/base/base.html" />
         <option value="$PROJECT_DIR$/pl/views.py" />
         <option value="$PROJECT_DIR$/pl/templates/pl/index.html" />
+        <option value="$PROJECT_DIR$/vr/models.py" />
+        <option value="$PROJECT_DIR$/lp/settings.py" />
+        <option value="$PROJECT_DIR$/pmvl/admin.py" />
+        <option value="$PROJECT_DIR$/vr/admin.py" />
       </list>
     </option>
   </component>
@@ -156,6 +79,16 @@
             <path>
               <item name="mptb-mtr" type="b2602c69:ProjectViewProjectNode" />
               <item name="mptb-mtr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mptb-mtr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mptb-mtr" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mptb-mtr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mptb-mtr" type="462c0819:PsiDirectoryNode" />
+              <item name="pmvl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mptb-mtr" type="b2602c69:ProjectViewProjectNode" />
@@ -202,6 +135,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617795076631</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit, all other commits will be under the impression, the initial remains the most basic aspect of the project.">
+      <created>1618396435090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618396435090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -218,8 +159,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20508474" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925262" visible="true" weight="0.20508474" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007474" side_tool="true" weight="0.20508474" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -293,13 +234,6 @@
           <folding>
             <element signature="e#626#658#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -396,6 +330,40 @@
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmvl/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vr/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vr/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vr/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
