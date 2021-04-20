@@ -20,5 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('dlearn/', include('dlearn.urls')),
     path('base/', include('base.urls')),
-    path('pl/', include('pl.urls'))
+    path('pl/', include('pl.urls')),
+    path('vr/', include('vr.urls')),
+    path('pmvl/', include('pmvl.urls')),
+    path('madp/', include('madp.urls'))
 ]

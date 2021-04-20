@@ -1,6 +1,6 @@
 {%extends 'base/base.html'%}
 {% block content %}
-<title>Motor Traffic Registry | Learners Permit</title>
+<title>Motor Traffic Registry | Morobe Administration</title>
     <style>
         body {
             font-size: 10px;
@@ -25,29 +25,29 @@
 
 <section class="container">
 
-  <h2>Motor Traffic Registry | Learner's Permit</h2>
+  <h2>Motor Traffic Registry | Morobe Administration</h2>
 
 
   <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search" style="padding-bottom: 2px;font-family: 'verdana';margin-bottom: 3px;">
-    
+
   <table class="order-table table">
     <thead>
       <tr>
-        <th>PermitID</th>
-        <th>Surname</th>
-        <th>Given Name</th>
-        <th>Class</th>
-        <th>Date Updated.</th>
+        <th>MADP_ID</th>
+        <th>Full Name</th>
+        <th>Division</th>
+        <th>Expiry Date</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
-      {% for permit in lp%}
+      {% for dp in madp%}
       <tr>
-        <td>{{permit.permit_id}}</td>
-        <td>{{permit.surname}}</td>
-        <td>{{permit.given_name}}</td>
-        <td>{{permit.licence_class}}</td>
-        <td>{{permit.updated}}</td>
+        <td>{{dp.madp_id}}</td>
+        <td>{{dp.name}}</td>
+        <td>{{dp.division}}</td>
+        <td>{{dp.expiry_date}}</td>
+        <td>{{dp.status}}</td>
       </tr>
       {% endfor %}
     </tbody>
